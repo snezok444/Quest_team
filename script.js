@@ -1,4 +1,4 @@
-const WEBAPP_URL = "https://script.google.com/macros/s/ТВОЙ_ID/exec";
+const API_URL = "/api/booking";
 
 async function submitBooking(event) {
   event.preventDefault();
@@ -8,7 +8,7 @@ async function submitBooking(event) {
   const telegram = document.getElementById("telegram").value.trim();
   const time = document.getElementById("time").value;
 
-  const url = `${WEBAPP_URL}?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&telegram=${encodeURIComponent(telegram)}&time=${encodeURIComponent(time)}`;
+  const url = `${API_URL}?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&telegram=${encodeURIComponent(telegram)}&time=${encodeURIComponent(time)}`;
 
   try {
     const response = await fetch(url);
@@ -25,8 +25,3 @@ async function submitBooking(event) {
     console.error(err);
   }
 }
-
-
-
-
-
