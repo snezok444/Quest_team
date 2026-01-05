@@ -1,5 +1,4 @@
-// Вставь сюда свой URL веб-приложения Google Apps Script (https://script.google.com/macros/s/AKfycbwROhi0tc652Ev3a-p-IKzC4idCWbshYsMjXF-q3G6xfo32A_CED9lhpzpyX-Apos5k/exec)
-const WEBAPP_URL = "https://script.google.com/macros/s/ТВОЙ_ID/exec";
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwROhi0tc652Ev3a-p-IKzC4idCWbshYsMjXF-q3G6xfo32A_CED9lhpzpyX-Apos5k/exec";
 
 async function submitBooking(event) {
   event.preventDefault(); // предотвращаем перезагрузку страницы
@@ -29,4 +28,5 @@ async function submitBooking(event) {
     console.error(err);
   }
 }
+
 
