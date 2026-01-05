@@ -10,7 +10,6 @@ async function submitBooking(event) {
   const telegram = document.getElementById("telegram").value.trim();
   const time = document.getElementById("time").value;
 
-  // Формируем URL с параметрами
   const url = ${WEBAPP_URL}?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&telegram=${encodeURIComponent(telegram)}&time=${encodeURIComponent(time)};
 
   try {
@@ -30,3 +29,4 @@ async function submitBooking(event) {
     console.error(err);
   }
 }
+
