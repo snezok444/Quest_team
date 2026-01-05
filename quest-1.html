@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Название квеста</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Кнопка "Назад" -->
+  <a href="index.html" class="back-btn">←</a>
+
+  <!-- Название -->
+  <h1 class="quest-title">Тайна старого замка</h1>
+
+  <!-- Большая обложка -->
+  <div class="cover">
+    <img src="cover.jpg" alt="Обложка квеста">
+  </div>
+
+  <!-- Полное описание -->
+  <section class="description">
+    <h2>Описание</h2>
+    <p>
+      Вас ждёт увлекательное приключение в старинном замке, полном загадок и тайн.
+      Команда игроков должна разгадать головоломки, найти ключи и выбраться до того,
+      как часы пробьют полночь...
+    </p>
+  </section>
+
+  <!-- Характеристики -->
+  <section class="features">
+    <h2>Характеристики</h2>
+    <ul>
+      <li><strong>Длительность:</strong> 90 минут</li>
+      <li><strong>Игроки:</strong> 2–6 человек</li>
+      <li><strong>Сложность:</strong> Средняя</li>
+      <li><strong>Возраст:</strong> 12+</li>
+      <li><strong>Цена:</strong> 50 BYN</li>
+    </ul>
+  </section>
+
+  <!-- Форма бронирования -->
+  <section class="booking">
+  <h2>Забронировать</h2>
+  <form id="bookingForm" onsubmit="submitBooking(event)">
+    <label>Имя:</label>
+    <input type="text" id="name" required>
+
+    <label>Телефон:</label>
+    <input type="tel" id="phone" required>
+
+    <label>Telegram:</label>
+    <input type="text" id="telegram" required>
+
+    <label>Время бронирования:</label>
+    <select id="time" required>
+      <option value="">Выберите время</option>
+      <option>10:00</option>
+      <option>12:00</option>
+      <option>14:00</option>
+      <option>16:00</option>
+      <option>18:00</option>
+      <option>20:00</option>
+    </select>
+
+    <button type="submit">Отправить заявку</button>
+  </form>
+  <p id="status"></p>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
