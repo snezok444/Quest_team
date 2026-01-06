@@ -40,35 +40,11 @@
     </ul>
   </section>
 
-  <!-- Форма бронирования -->
+  <!-- Кнопка бронирования -->
   <section class="booking">
-  <h2>Забронировать</h2>
-  <form id="bookingForm" onsubmit="submitBooking(event)">
-    <label>Имя:</label>
-    <input type="text" id="name" required>
+    <h2>Забронировать</h2>
+    <a href="https://t.me/ТВОЙ_БОТ" target="_blank" class="btn">Забронировать</a>
+  </section>
 
-    <label>Телефон:</label>
-    <input type="tel" id="phone" required>
-
-    <label>Telegram:</label>
-    <input type="text" id="telegram" required>
-
-    <label>Время бронирования:</label>
-    <select id="time" required>
-      <option value="">Выберите время</option>
-      <option>10:00</option>
-      <option>12:00</option>
-      <option>14:00</option>
-      <option>16:00</option>
-      <option>18:00</option>
-      <option>20:00</option>
-    </select>
-
-    <button type="submit">Отправить заявку</button>
-  </form>
-  <p id="status"></p>
-</section>
-
-  <script src="script.js"></script>
 </body>
 </html>
