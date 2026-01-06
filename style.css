@@ -288,44 +288,47 @@ section h2 {
   border-bottom: none;
 }
 
-/* Форма бронирования */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+/* Кнопка бронирования */
+.booking {
+  text-align: center; /* центрируем кнопку */
 }
-
-form label {
-  font-weight: 500;
-}
-
-form input, form select, form button {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-}
-
-form input:focus, form select:focus {
-  border-color: #222;
-  outline: none;
-}
-
-form button {
+.booking .btn {
+  display: inline-block;
+  padding: 12px 24px;
   background: #222;
   color: #fff;
-  border: none;
-  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  text-decoration: none;
   transition: background 0.3s;
 }
-form button:hover {
+.booking .btn:hover {
   background: #555;
 }
 
-/* Статус */
-#status {
-  margin-top: 10px;
+/* FAQ (выпадающие вопросы) */
+.faq {
+  margin-top: 20px;
+}
+.faq details {
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 14px;
+  background: #fdfdfd;
+  transition: background 0.3s;
+}
+.faq details:hover {
+  background: #f5f5f5;
+}
+.faq summary {
   font-weight: 500;
-  color: #0078d7;
-  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  color: #222;
+}
+.faq p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #555;
 }
