@@ -210,124 +210,106 @@ font-family: Arial, sans-serif;
 
 
 
-/* Общие настройки */
+/* Общие стили */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fafafa;
+  background-color: #fff;
   color: #222;
   line-height: 1.6;
 }
 
 /* Кнопка "Назад" */
 .back-btn {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 40px;
-  height: 40px;
-  background: #222;
-  color: #fff;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
+  display: inline-block;
+  margin: 20px;
   text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  transition: background 0.3s;
+  font-size: 20px;
+  color: #555;
 }
 .back-btn:hover {
-  background: #555;
+  color: #000;
 }
 
 /* Заголовок */
 .quest-title {
   text-align: center;
-  font-size: 2rem;
-  margin: 80px 20px 20px;
+  font-size: 32px;
+  margin: 20px 0;
+  font-weight: 600;
 }
 
 /* Обложка */
+.cover {
+  text-align: center;
+  margin-bottom: 30px;
+}
 .cover img {
-  display: block;
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 100%;
+  height: auto;
 }
 
-/* Секции */
+/* Разделы */
 section {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  padding: 0 20px;
 }
-
 section h2 {
-  margin-top: 0;
-  font-size: 1.4rem;
-  border-left: 4px solid #222;
-  padding-left: 10px;
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 
 /* Характеристики */
 .features ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .features li {
-  padding: 6px 0;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 8px;
+  font-size: 16px;
 }
-.features li:last-child {
-  border-bottom: none;
-}
-
-/* Форма бронирования */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.features strong {
+  font-weight: 600;
 }
 
-form label {
-  font-weight: 500;
-}
-
-form input, form select, form button {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-}
-
-form input:focus, form select:focus {
-  border-color: #222;
-  outline: none;
-}
-
-form button {
-  background: #222;
+/* Кнопка бронирования */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0088cc;
   color: #fff;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
 }
-form button:hover {
-  background: #555;
+.btn:hover {
+  background-color: #006699;
 }
 
-/* Статус */
-#status {
-  margin-top: 10px;
-  font-weight: 500;
-  color: #0078d7;
+/* Блок бронирования */
+.booking {
   text-align: center;
-
+  padding: 30px 20px;
+  border-top: 1px solid #eee;
 }
 
+/* FAQ */
+.faq details {
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+.faq summary {
+  font-weight: 500;
+  cursor: pointer;
+}
+.faq p {
+  margin: 8px 0 0;
+  font-size: 15px;
+}
