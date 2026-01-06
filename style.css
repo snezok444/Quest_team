@@ -187,7 +187,7 @@ font-family: Arial, sans-serif;
 .booking {
     padding: 40px 20px;
     text-align: left;
-    max-width: 600px;
+    max-width: 450px;
     margin: 0 auto 60px;
 }
 
@@ -242,10 +242,19 @@ body {
 }
 
 /* Заголовок */
+/* Для больших экранов (по умолчанию) */
 .quest-title {
-  text-align: center;
   font-size: 2rem;
-  margin: 80px 20px 20px;
+}
+
+/* Для телефонов */
+@media (max-width: 600px) {
+  .quest-title {
+    font-size: 1.4rem; /* уменьшаем заголовок */
+  }
+  body {
+    font-size: 14px; /* уменьшаем общий текст */
+  }
 }
 
 /* Обложка */
@@ -332,3 +341,4 @@ section h2 {
   font-size: 14px;
   color: #555;
 }
+
