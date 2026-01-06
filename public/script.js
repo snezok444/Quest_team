@@ -1,4 +1,8 @@
-const API_URL = "/api/booking";
+// Адрес прокси Corsfix
+const PROXY = "https://proxy.corsfix.com/?";
+
+// Адрес твоего Google Apps Script Web App
+const WEBAPP_URL = "https://script.google.com/macros/s/ТВОЙ_ID/exec";
 
 async function submitBooking(event) {
   event.preventDefault();
@@ -8,10 +12,12 @@ async function submitBooking(event) {
   const telegram = document.getElementById("telegram").value.trim();
   const time = document.getElementById("time").value;
 
-  const url = `${API_URL}?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&telegram=${encodeURIComponent(telegram)}&time=${encodeURIComponent(time)}`;
+  // Формируем URL
+  const targetUrl = `${WEBAPP_URL}?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&telegram=${encodeURIComponent(telegram)}&time=${encodeURIComponent(time)}`;
 
   try {
-    const response = await fetch(url);
+    // Запрос идёт через Corsfix
+    const response = await fetch(PROXY + targetUrl);
     const result = await response.json();
 
     if (result.ok) {
