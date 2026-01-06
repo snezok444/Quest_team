@@ -1,1 +1,117 @@
+/* Общие настройки */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
 
+/* Кнопка "Назад" */
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+.back-btn:hover {
+  background: #555;
+}
+
+/* Заголовок страницы */
+.page-header {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+.page-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  font-family: 'Akony', sans-serif; /* применяем Akony */
+}
+.page-header p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Секции */
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+section h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  border-left: 4px solid #222;
+  padding-left: 10px;
+  font-family: 'Akony', sans-serif; /* заголовки секций тоже Akony */
+}
+
+/* Команда */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.team-card {
+  width: 250px;
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.team-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.team-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-family: 'Akony', sans-serif; /* имена участников тоже Akony */
+}
+.team-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Контакты */
+.contacts p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* 📱 Адаптация для телефонов */
+@media (max-width: 600px) {
+  .page-header h1 {
+    font-size: 1.6rem;
+  }
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+  .team-card {
+    width: 100%;
+  }
+}
