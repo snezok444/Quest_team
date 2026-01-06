@@ -124,92 +124,6 @@ font-family: Arial, sans-serif;
 
 
 
-/* Заголовок страницы */
-.page-title h1 {
-    margin-top: 40px;
-    font-size: 42px;
-    font-family: 'QuestTitle', sans-serif;
-}
-
-/* Каталог квестов */
-.quests-catalog {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-}
-
-.quest-card {
-    width: 280px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding-bottom: 20px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.quest-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
-
-.quest-card h3 {
-    margin: 15px 0 10px;
-    font-size: 22px;
-}
-
-.quest-card p {
-    padding: 0 15px;
-    font-size: 14px;
-    color: #555;
-}
-
-/* Кнопка */
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #222;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: 0.2s;
-}
-
-.btn:hover {
-    background: #444;
-}
-
-/* Инструкция */
-.booking {
-    padding: 40px 20px;
-    text-align: left;
-    max-width: 450px;
-    margin: 0 auto 60px;
-}
-
-.booking h2 {
-    text-align: center;
-    font-family: 'BREAK', sans-serif;
-    margin-bottom: 20px;
-}
-
-.booking ol {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-
-
-
-
-
-
-
-
 /* Общие настройки */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
@@ -217,6 +131,90 @@ body {
   padding: 0;
   background: #fafafa;
   color: #222;
+  line-height: 1.6;
+  word-wrap: break-word;
+  overflow-x: hidden; /* убираем горизонтальный скролл */
+}
+
+/* Заголовок страницы */
+.page-title h1 {
+  margin-top: 40px;
+  font-size: 42px;
+  font-family: 'QuestTitle', sans-serif;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Каталог квестов */
+.quests-catalog {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.quest-card {
+  flex: 1 1 280px; /* адаптивная ширина */
+  max-width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.quest-card img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.quest-card h3 {
+  margin: 15px 0 10px;
+  font-size: 22px;
+}
+
+.quest-card p {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Кнопка */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.2s;
+  max-width: 100%;
+}
+.btn:hover {
+  background: #444;
+}
+
+/* Инструкция */
+.booking {
+  padding: 40px 20px;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto 10px;
+}
+
+.booking h2 {
+  text-align: center;
+  font-family: 'BREAK', sans-serif;
+  margin-bottom: 20px;
+}
+
+.booking ol {
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -242,26 +240,17 @@ body {
 }
 
 /* Заголовок */
-/* Для больших экранов (по умолчанию) */
 .quest-title {
   font-size: 2rem;
-}
-
-/* Для телефонов */
-@media (max-width: 600px) {
-  .quest-title {
-    font-size: 1.4rem; /* уменьшаем заголовок */
-  }
-  body {
-    font-size: 14px; /* уменьшаем общий текст */
-  }
+  text-align: center;
+  max-width: 100%;
 }
 
 /* Обложка */
 .cover img {
   display: block;
-  max-width: 900px;
   width: 100%;
+  height: auto;
   margin: 0 auto 30px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -276,7 +265,6 @@ section {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
-
 section h2 {
   margin-top: 0;
   font-size: 1.4rem;
@@ -297,25 +285,7 @@ section h2 {
   border-bottom: none;
 }
 
-/* Кнопка бронирования */
-.booking {
-  text-align: center; /* центрируем кнопку */
-}
-.booking .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #222;
-  color: #fff;
-  font-size: 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-.booking .btn:hover {
-  background: #555;
-}
-
-/* FAQ (выпадающие вопросы) */
+/* FAQ */
 .faq {
   margin-top: 20px;
 }
@@ -342,3 +312,28 @@ section h2 {
   color: #555;
 }
 
+/* 📱 Адаптация для телефонов */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .page-title h1 {
+    font-size: 28px;
+  }
+  .quest-title {
+    font-size: 1.4rem;
+  }
+  .quest-card {
+    flex: 1 1 100%;
+  }
+  .quest-card h3 {
+    font-size: 18px;
+  }
+  .quest-card p {
+    font-size: 13px;
+  }
+  .booking {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
