@@ -242,6 +242,7 @@ body {
 /* Заголовок */
 .quest-title {
   font-size: 2rem;
+  font-family: 'BREAK', sans-serif;
   text-align: center;
   max-width: 100%;
 }
@@ -355,4 +356,5 @@ section h2 {
     padding: 20px;
   }
 }
+
 
