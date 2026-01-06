@@ -1,3 +1,32 @@
+/* Горизонтальное меню */
+.top-menu {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-menu nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: 0.2s;
+}
+
+.top-menu a:hover {
+    color: #555;
+}
+
 /* Общие настройки */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
