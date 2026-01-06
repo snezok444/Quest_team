@@ -285,6 +285,24 @@ section h2 {
   border-bottom: none;
 }
 
+/* Кнопка бронирования */
+.booking {
+  text-align: center; /* центрируем кнопку */
+}
+.booking .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.booking .btn:hover {
+  background: #555;
+}
+
 /* FAQ */
 .faq {
   margin-top: 20px;
@@ -337,3 +355,4 @@ section h2 {
     padding: 20px;
   }
 }
+
