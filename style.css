@@ -1,7 +1,7 @@
 /* Подключение шрифта BREAK */
 @font-face {
     font-family: 'BREAK';
-    src: url('fonts/BREAK.ttf') format('truetype');
+    src: url('fonts/AKONY.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -56,7 +56,7 @@ body {
     margin-top: 40px;
     font-size: 48px;
     font-weight: bold;
-    font-family: 'BREAK', sans-serif; /* Применяем шрифт */
+    font-family: 'AKONY', sans-serif; /* Применяем шрифт */
 }
 
 .tagline {
@@ -112,7 +112,7 @@ body {
 }
 
 .footer p:first-child {
-font-family: 'BREAK', sans-serif;
+font-family: 'AKONY', sans-serif;
 }
 
 .footer p:last-child {
@@ -328,4 +328,5 @@ form button:hover {
   font-weight: 500;
   color: #0078d7;
   text-align: center;
+
 }
