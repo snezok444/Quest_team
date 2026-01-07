@@ -371,6 +371,7 @@ section h2 {
 .restrictions h2 {
   color: #cc0000; /* красные буквы заголовка */
   margin-top: 0;
+  font-family: 'BREAK', sans-serif;
   font-size: 1.4rem;
 }
 
@@ -384,4 +385,5 @@ section h2 {
   font-size: 15px;
   color: #333;
 }
+
 
