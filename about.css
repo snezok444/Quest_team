@@ -92,6 +92,13 @@ section h2 {
   padding-left: 10px;
   font-family: 'Akony', sans-serif; /* заголовки секций тоже Akony */
 }
+section h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  border-left: 4px solid #222;
+  padding-left: 10px;
+  font-family: 'Akony', sans-serif; /* заголовки секций тоже Akony */
+}
 
 /* Команда */
 .team-grid {
