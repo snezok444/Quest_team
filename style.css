@@ -229,7 +229,7 @@ body {
   left: 20px;
   width: 40px;
   height: 40px;
-  background: #222;
+  background: #006400;
   color: #fff;
   border-radius: 50%;
   text-align: center;
@@ -298,7 +298,7 @@ section h2 {
 .booking .btn {
   display: inline-block;
   padding: 12px 24px;
-  background: #222;
+  background: #006400;
   color: #fff;
   font-size: 16px;
   border-radius: 6px;
@@ -390,6 +390,7 @@ section h2 {
   font-size: 15px;
   color: #333;
 }
+
 
 
 
