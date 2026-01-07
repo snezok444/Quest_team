@@ -1,4 +1,4 @@
-/* Подключение шрифта BREAK */
+/* Подключение шрифта BREK */
 @font-face {
     font-family: 'BREAK';
     src: url('fonts/AKONY.ttf') format('truetype');
@@ -385,6 +385,7 @@ section h2 {
   font-size: 15px;
   color: #333;
 }
+
 
 
 
