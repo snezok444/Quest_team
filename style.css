@@ -15,7 +15,7 @@
 
 /* Верхнее меню */
 .top-menu {
-  background: #222;
+  background: #fff;
   padding: 10px 20px;
 }
 .top-menu ul {
@@ -24,11 +24,11 @@
   padding: 0;
   display: flex;
   text-align: center;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 .top-menu li {
-  margin-left: 20px;
+  margin-left: 0 20px;
 }
 .top-menu a {
   color: #006400;
@@ -37,7 +37,7 @@
   transition: color 0.3s;
 }
 .top-menu a:hover {
-  color: #ff4444;
+  color: #cc0000;
 }
 
 /* Кнопка личного кабинета */
@@ -478,6 +478,7 @@ body {
     font-size: 14px;
   }
 }
+
 
 
 
