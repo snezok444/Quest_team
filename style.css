@@ -70,6 +70,7 @@
 /* Общие стили */
 body {
     margin: 0;
+    padding-top: 60px;
     font-family: Arial, sans-serif;
     background: #fafafa;
     color: #222;
@@ -486,6 +487,7 @@ body {
     font-size: 14px;
   }
 }
+
 
 
 
