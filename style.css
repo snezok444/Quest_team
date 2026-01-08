@@ -13,34 +13,49 @@
 }
 
 
-/* Горизонтальное меню */
+/* Верхнее меню */
 .top-menu {
-    width: 100%;
-    background: #ffffff;
-    border-bottom: 1px solid #ddd;
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  background: #222;
+  padding: 10px 20px;
 }
-
-.top-menu nav {
-    display: flex;
-    color: #006400;
-    justify-content: center;
-    gap: 40px;
+.top-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-
+.top-menu li {
+  margin-left: 20px;
+}
 .top-menu a {
-    text-decoration: none;
-    color: #006400;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    transition: 0.2s;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.top-menu a:hover {
+  color: #ff4444;
 }
 
-.top-menu a:hover {
-    color: #555;
+/* Кнопка личного кабинета */
+.profile-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #222;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  transition: background 0.3s, transform 0.2s;
+}
+.profile-btn:hover {
+  background: #ff4444;
+  color: #fff;
+  transform: scale(1.1);
 }
 
 /* Общие стили */
@@ -462,5 +477,6 @@ body {
     font-size: 14px;
   }
 }
+
 
 
