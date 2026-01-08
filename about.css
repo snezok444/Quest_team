@@ -17,7 +17,7 @@
 
 .top-menu a {
     text-decoration: none;
-    color: #082e08;
+    color: #006400;
     font-size: 18px;
     font-family: Arial, sans-serif;
     transition: 0.2s;
@@ -45,7 +45,7 @@ body {
   left: 20px;
   width: 40px;
   height: 40px;
-  background: #082e08;
+  background: #006400;
   color: #fff;
   border-radius: 50%;
   text-align: center;
@@ -66,7 +66,7 @@ body {
 }
 .page-header h1 {
   font-size: 2.2rem;
-  color: #003934;
+  color: #006400;
   margin-bottom: 10px;
   font-family: 'Akony', sans-serif; /* применяем Akony */
 }
@@ -164,7 +164,7 @@ section h3 {
 }
 
 .footer p:first-child {
-color: #082e08;
+color: #006400;
 font-family: 'Akony', sans-serif;
 }
 
