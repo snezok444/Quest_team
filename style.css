@@ -15,6 +15,12 @@
 
 /* Верхнее меню */
 .top-menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   background: #fff;
   padding: 10px 20px;
 }
@@ -480,6 +486,7 @@ body {
     font-size: 14px;
   }
 }
+
 
 
 
