@@ -44,7 +44,8 @@
   transition: color 0.3s;
 }
 .top-menu a:hover {
-  color: #cc0000;
+  color: #7ac280;
+  transform: scale(1.2);
 }
 
 /* Кнопка личного кабинета */
@@ -53,8 +54,8 @@
   width: 40px;
   height: 40px;
   background: transparent;
-  color: #000;
-  border: 2px solid #000;
+  color: #006400;
+  border: 2px solid #006400;
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
@@ -62,9 +63,9 @@
   transition: background 0.3s, transform 0.2s, color 0.3s;
 }
 .profile-btn:hover {
-  background: #000;
-  color: #fff;
-  transform: scale(1.1);
+  background: #7ac280;
+  color: #7ac280;
+  transform: scale(1.2);
 }
 
 /* Общие стили */
@@ -225,7 +226,7 @@ body {
   max-width: 100%;
 }
 .btn:hover {
-  background: #222;
+  background: #7ac280;
 }
 
 /* Инструкция */
@@ -265,7 +266,7 @@ body {
   transition: background 0.3s;
 }
 .back-btn:hover {
-  background: #006400;
+  background: #7ac280;
 }
 
 /* Заголовок */
@@ -331,7 +332,7 @@ section h2 {
   transition: background 0.3s;
 }
 .booking .btn:hover {
-  background: #006400;
+  background: #7ac280;
 }
 
 /* FAQ */
@@ -347,7 +348,7 @@ section h2 {
   transition: background 0.3s;
 }
 .faq details:hover {
-  background: #f5f5f5;
+  background: #7ac280;
 }
 .faq summary {
   font-weight: 500;
@@ -448,7 +449,7 @@ body {
   transition: background 0.3s;
 }
 .back-btn:hover {
-  background: #555;
+  background: #7ac280;
 }
 
 /* Единый блок информации */
@@ -487,6 +488,7 @@ body {
     font-size: 14px;
   }
 }
+
 
 
 
