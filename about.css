@@ -47,7 +47,7 @@
   transition: background 0.3s, transform 0.2s, color 0.3s;
 }
 .profile-btn:hover {
-  background: #000;
+  background: #cc0000;
   color: #cc0000;
   transform: scale(1.1);
 }
