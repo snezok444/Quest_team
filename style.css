@@ -79,7 +79,7 @@ body {
 
 /* Заголовок */
 .header h1 {
-    margin-top: 40px;
+    margin-top: 70px;
     font-size: 48px;
     color: #006400;
     font-weight: bold;
@@ -487,6 +487,7 @@ body {
     font-size: 14px;
   }
 }
+
 
 
 
