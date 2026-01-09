@@ -29,7 +29,8 @@
   transition: color 0.3s;
 }
 .top-menu a:hover {
-  color: #cc0000;
+  color: #7ac280;
+  transform: scale(1.5);
 }
 
 /* Кнопка личного кабинета */
@@ -47,9 +48,9 @@
   transition: background 0.3s, transform 0.2s, color 0.3s;
 }
 .profile-btn:hover {
-  background: #cc0000;
-  color: #cc0000;
-  transform: scale(1.1);
+  background: #7ac280;
+  color: #7ac280;
+  transform: scale(1.5);
 }
 
 /* Общие настройки */
