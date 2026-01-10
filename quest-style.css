@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'BREAK';
+    src: url('fonts/AKONY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'QuestTitle';
+    src: url('fonts/AKONY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .back-btn {
   position: fixed;
   top: 20px;
