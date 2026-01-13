@@ -465,7 +465,7 @@ body {
 
 .info-block h1 {
   font-family: 'Akony', sans-serif; /* заголовок шрифтом Akony */
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
   color: #006400;
 }
@@ -488,6 +488,7 @@ body {
     font-size: 14px;
   }
 }
+
 
 
 
