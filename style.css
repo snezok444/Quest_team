@@ -434,5 +434,16 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+.news li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+.news li:last-child {
+  border-bottom: none;
+}
 
 
