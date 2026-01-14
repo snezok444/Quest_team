@@ -489,10 +489,13 @@ body {
   }
 }
 
-.q {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
+.quest-banner {
+  width: 100vw;       /* ширина экрана */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw; /* выравнивание */
+  margin-right: -50vw;
   overflow: hidden;
 }
 
@@ -514,4 +517,5 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 
