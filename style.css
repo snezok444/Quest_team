@@ -489,19 +489,18 @@ body {
   }
 }
 
+.quest-banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+.quest-banner img {
+  width: 100%;
+  height: auto;
+  display: block; /* убирает белые полосы снизу */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.quest-banner img:not([src]) {
+  display: none;
+}
