@@ -269,98 +269,7 @@ body {
   background: #7ac280;
 }
 
-/* Заголовок */
-.quest-title {
-  font-size: 2rem;
-  color: #006400;
-  font-family: 'BREAK', sans-serif;
-  text-align: center;
-  max-width: 100%;
-}
 
-/* Обложка */
-.cover img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0 auto 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-/* Секции */
-section {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-section h2 {
-  margin-top: 0;
-  font-size: 1.4rem;
-  border-left: 4px solid #222;
-  padding-left: 10px;
-}
-
-/* Характеристики */
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-.features li {
-  padding: 6px 0;
-  border-bottom: 1px solid #eee;
-}
-.features li:last-child {
-  border-bottom: none;
-}
-
-/* Кнопка бронирования */
-.booking {
-  text-align: center; /* центрируем кнопку */
-}
-.booking .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #006400;
-  color: #fff;
-  font-size: 16px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-.booking .btn:hover {
-  background: #7ac280;
-}
-
-/* FAQ */
-.faq {
-  margin-top: 20px;
-}
-.faq details {
-  margin-bottom: 12px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 10px 14px;
-  background: #fdfdfd;
-  transition: background 0.3s;
-}
-.faq details:hover {
-  background: #7ac280;
-}
-.faq summary {
-  font-weight: 500;
-  cursor: pointer;
-  font-size: 15px;
-  color: #006400;
-}
-.faq p {
-  margin: 8px 0 0;
-  font-size: 14px;
-  color: #555;
-}
 
 /* 📱 Адаптация для телефонов */
 @media (max-width: 600px) {
@@ -514,6 +423,7 @@ body {
   height: auto;
   display: block;
 }
+
 
 
 
