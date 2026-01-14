@@ -496,7 +496,7 @@ body {
   overflow: hidden;
 }
 
-.quest-banner img {
+.i {
   width: 100%;
   height: auto;
   display: block; /* убирает белые полосы снизу */
@@ -506,3 +506,11 @@ body {
   display: none;
 }
 
+.quest-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
