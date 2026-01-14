@@ -490,9 +490,10 @@ body {
 }
 
 .quest-banner {
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .quest-banner img {
@@ -504,3 +505,4 @@ body {
 .quest-banner img:not([src]) {
   display: none;
 }
+
