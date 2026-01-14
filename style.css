@@ -489,7 +489,7 @@ body {
   }
 }
 
-.quest-banner {
+.q {
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -514,3 +514,4 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
