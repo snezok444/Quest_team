@@ -455,3 +455,10 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+.h-sec {
+margin-top: 70px;
+    font-size: 28px;
+    color: #006400;
+    font-weight: bold;
+    font-family: 'BREAK', sans-serif; /* Применяем шрифт */
+}
