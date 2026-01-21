@@ -505,3 +505,11 @@ margin-top: 70px;
 .info-btn:active + .info-popup {
   display: block;
 }
+
+.countdown {
+  font-size: 24px;
+  font-weight: bold;
+  color: #006400;
+  text-align: center;
+  margin: 20px 0;
+}
