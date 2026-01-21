@@ -198,25 +198,29 @@ section h2 {
 }
 
 .hint {
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-block;   /* чтобы блок вел себя как часть строки */
+  vertical-align: middle;  /* выравниваем по центру строки */
 }
 
-/* Кнопка-вопросик */
 .hint summary {
-  list-style: none;
-  cursor: pointer;
+  display: inline-flex;     /* чтобы кружок был в строке */
+  align-items: center;
+  justify-content: center;
+
   width: 20px;
   height: 20px;
+
   background: #006400;
   color: #fff;
   border-radius: 50%;
-  text-align: center;
-  line-height: 20px;
+
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
   user-select: none;
-  display: inline-flex;
+
+  margin: 0;
+  padding: 0;
 }
 
 .hint summary::-webkit-details-marker {
