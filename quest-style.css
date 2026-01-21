@@ -189,3 +189,46 @@ section h2 {
   font-size: 15px;
   color: #333;
 }
+
+.feature-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Кнопка-вопросик */
+.hint summary {
+  list-style: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: #006400;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  user-select: none;
+  display: inline-block;
+}
+
+.hint summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Подсказка */
+.hint-text {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  width: 220px;
+  font-size: 14px;
+  color: #333;
+  z-index: 10;
+}
