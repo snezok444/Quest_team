@@ -463,15 +463,15 @@ margin-top: 70px;
     font-family: 'BREAK', sans-serif; /* Применяем шрифт */
 }
 
-.hint {
-  display: inline-block;
-  margin-left: 8px;
+.feature-item {
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.hint summary {
-  list-style: none;
-  cursor: pointer;
+/* Кнопка-вопросик */
+.info-btn {
   width: 20px;
   height: 20px;
   background: #006400;
@@ -480,16 +480,12 @@ margin-top: 70px;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
-  font-weight: bold;
-  display: inline-block;
+  cursor: pointer;
   user-select: none;
 }
 
-.hint summary::-webkit-details-marker {
-  display: none;
-}
-
-.hint-text {
+/* Скрытая подсказка */
+.info-popup {
   position: absolute;
   top: 28px;
   left: 0;
@@ -500,5 +496,12 @@ margin-top: 70px;
   width: 220px;
   font-size: 14px;
   color: #333;
+  display: none;
   z-index: 10;
+}
+
+/* Показываем подсказку при клике или фокусе */
+.info-btn:focus + .info-popup,
+.info-btn:active + .info-popup {
+  display: block;
 }
