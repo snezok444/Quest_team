@@ -1,6 +1,6 @@
 <script>
   // Укажи дату, до которой идёт отсчёт
-  const targetDate = new Date("2025-02-09T00:00:00").getTime();
+  const targetDate = new Date("2026-02-09T00:00:00").getTime();
 
   const timer = setInterval(function() {
     const now = new Date().getTime();
