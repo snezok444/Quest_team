@@ -223,12 +223,12 @@ section h2 {
   position: absolute;
   top: 28px;
   left: 0;
-  background: #fff;
+  background: #444;
   padding: 10px 12px;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   width: 220px;
   font-size: 14px;
-  color: #333;
+  color: #fff;
   z-index: 10;
 }
