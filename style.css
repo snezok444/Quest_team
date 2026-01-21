@@ -462,3 +462,43 @@ margin-top: 70px;
     font-weight: bold;
     font-family: 'BREAK', sans-serif; /* Применяем шрифт */
 }
+
+.hint {
+  display: inline-block;
+  margin-left: 8px;
+  position: relative;
+}
+
+.hint summary {
+  list-style: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: #006400;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  user-select: none;
+}
+
+.hint summary::-webkit-details-marker {
+  display: none;
+}
+
+.hint-text {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  width: 220px;
+  font-size: 14px;
+  color: #333;
+  z-index: 10;
+}
