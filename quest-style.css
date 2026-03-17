@@ -241,3 +241,45 @@ section h2 {
   color: #fff;
   z-index: 10;
 }
+
+.day-block {
+  margin-bottom: 24px;
+}
+
+.day-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Сетка 3×2 */
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* всегда 3 в ряд */
+  gap: 10px;
+  max-width: 260px; /* чтобы сетка не растягивалась слишком широко */
+}
+
+/* Квадратики */
+.time-cell {
+  background: #006400;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.time-cell:hover {
+  background: #008000;
+}
+
+/* Недоступный слот */
+.time-cell.disabled {
+  background: #777;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
