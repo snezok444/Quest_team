@@ -244,7 +244,7 @@ section h2 {
 
 .day-block {
   margin-bottom: 24px;
-  text-align: center; /* центрируем дату */
+  text-align: center !important; /* центрируем дату */
 }
 
 .day-label {
