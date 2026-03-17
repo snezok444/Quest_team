@@ -244,6 +244,7 @@ section h2 {
 
 .day-block {
   margin-bottom: 24px;
+  text-align: center; /* центрируем дату */
 }
 
 .day-label {
@@ -253,12 +254,14 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Сетка 3×2 */
+/* Сетка 3 в ряд, по центру */
 .time-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* всегда 3 в ряд */
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  max-width: 260px; /* чтобы сетка не растягивалась слишком широко */
+
+  width: 260px;          /* фиксированная ширина для ровной сетки */
+  margin: 0 auto;        /* центрируем саму сетку */
 }
 
 /* Квадратики */
@@ -277,7 +280,6 @@ section h2 {
   background: #008000;
 }
 
-/* Недоступный слот */
 .time-cell.disabled {
   background: #777;
   cursor: not-allowed;
