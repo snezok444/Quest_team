@@ -300,8 +300,9 @@ section h2 {
 }
 
 .location-metro {
-  display: inline-flex;      /* важно: inline-flex, чтобы центрировалось */
+  display: inline-flex;  /* важно: inline-flex, чтобы центрировалось */
   align-items: center;
+  flex-direction: column;
   gap: 10px;
   font-size: 15px;
   color: #555;
