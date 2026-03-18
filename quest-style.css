@@ -286,3 +286,28 @@ section h2 {
   opacity: 0.6;
 }
 
+.location-block {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.address {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.metro {
+  display: flex;
+  align-items: center;   /* кружок и текст по одной линии */
+  gap: 8px;              /* расстояние между кружком и названием */
+  font-size: 15px;
+  color: #555;
+}
+
+.metro-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;    /* делает кружок круглым */
+  display: inline-block;
+}
