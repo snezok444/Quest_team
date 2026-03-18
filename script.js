@@ -31,3 +31,12 @@ async function submitBooking(event) {
     console.error(err);
   }
 }
+
+<script>
+document.querySelectorAll('.dropdown-date').forEach(date => {
+  date.addEventListener('click', () => {
+    const grid = date.nextElementSibling;
+    grid.style.display = grid.style.display === 'grid' ? 'none' : 'grid';
+  });
+});
+</script>
