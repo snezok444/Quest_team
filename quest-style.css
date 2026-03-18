@@ -302,7 +302,7 @@ section h2 {
 .location-metro {
   display: inline-flex;      /* важно: inline-flex, чтобы центрировалось */
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   font-size: 15px;
   color: #555;
 }
