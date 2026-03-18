@@ -287,11 +287,11 @@ section h2 {
 }
 
 .location {
+  text-align: center;        /* центрирует текстовые блоки */
   margin-bottom: 20px;
   font-family: Arial, sans-serif;
 }
 
-/* Отдельный блок адреса */
 .location-address {
   font-size: 16px;
   font-weight: 600;
@@ -299,16 +299,14 @@ section h2 {
   color: #222;
 }
 
-/* Отдельный блок метро */
 .location-metro {
-  display: flex;
+  display: inline-flex;      /* важно: inline-flex, чтобы центрировалось */
   align-items: center;
   gap: 8px;
   font-size: 15px;
   color: #555;
 }
 
-/* Кружочек слева */
 .metro-dot {
   width: 10px;
   height: 10px;
