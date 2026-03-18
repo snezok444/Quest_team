@@ -286,14 +286,3 @@ section h2 {
   opacity: 0.6;
 }
 
-.time-grid {
-  display: none; /* скрыто по умолчанию */
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  width: 260px;
-  margin: 10px auto 0;
-}
-
-.day-label {
-  cursor: pointer;
-}
