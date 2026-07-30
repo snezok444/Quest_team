@@ -314,3 +314,14 @@ section h2 {
   border-radius: 50%;
   display: inline-block;
 }
+
+.price {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px; /* расстояние между числом и иконкой */
+}
+
+.price-icon {
+  width: 14px;   /* подгони под свой размер */
+  height: auto;
+}
