@@ -318,7 +318,7 @@ section h2 {
 .price {
   display: inline-flex;
   align-items: center;
-  gap: 0.5px; /* расстояние между числом и иконкой */
+  gap: 1px; /* расстояние между числом и иконкой */
 }
 
 .price-icon {
